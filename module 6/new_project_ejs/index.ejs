@@ -1,0 +1,16 @@
+<ul>
+    <% cars.forEach(function (car){ %>
+    <li><%= car %></li>
+    <% }) %>
+  </ul>
+  
+  <ul>
+    <% models.forEach(function (model){ %>
+    <li>
+      <%= model.manu %>
+      <ul>
+        <li><%= model.model %></li>
+      </ul>
+    </li>
+    <% }) %>
+  </ul>

@@ -1,0 +1,44 @@
+.trip {
+    //background-color: cyan;
+    color: black;
+    .form-fields {
+        background-color: $lightGray;
+        padding: 1rem;
+        border: 1px solid $gray;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        .radio-group {
+            margin-bottom: .5rem;
+        .trip-input {
+            width: 100%;
+            padding: 1rem;
+            box-sizing: border-box;
+            margin-bottom: .5rem;
+            &.trip-margin-left {
+                margin-left: .5rem;   
+        }//closes trip-margin-left
+        }//closes trip-input
+        .trip-row {
+            display: flex;
+        }//closes trip-row
+        .trip-checkbox{
+            text-align: center;
+         }//closes trip-checkbox
+    
+    .searchFlights {
+        background-color: $jetOrange;
+        color:white;
+        font-family: $primaryFont;
+        font-weight: bold;
+        padding: 1 rem;
+        width: 100%;
+        border: 0;
+        border-radius: .25rem 1rem;
+
+    }//closes .searchFlights
+       
+
+}//closes trip
+    }//closes radio group
+
+}//closes form-fields

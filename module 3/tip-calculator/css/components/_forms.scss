@@ -1,0 +1,53 @@
+#calculator {
+    text-align: center;
+    label{
+        display: block;
+        //background-color: limegreen;
+        font-family: $secondaryFont;
+        font-size: 1rem;
+        font-style: italic;
+        margin-bottom: .5rem;
+    }//closes label
+
+    .prefix{
+        font-family: $primaryFont;
+        font-family: 1.5rem;
+        font-weight: bold;
+        color: $tipDkGray;
+        margin-right: .5rem;
+    }//closes prefix
+
+    .input-group{
+        border-bottom: 1px solid black;
+        padding-top: 1rem;
+        padding-bottom: 1rem; 
+        &:last-child{
+            border: 0;
+        }//ends last child
+        width: 100%;
+    }//closes .input-group
+
+    .input-row{
+        display: flex;
+        font-family: $primaryFont;
+        align-items: center;
+    
+    input{
+        background-color: white;
+        padding: 1rem;
+        color: black;
+        border: 1px solid $tipDkGray;
+        width: 100%;
+        font-family: $primaryFont;
+        font-size: 1rem;
+        font-weight: bold;
+    }//closes input   
+    h2{
+        font-family: $primaryFont;
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+    }//closes input
+    }//closes input-row
+
+}//closes calculator

@@ -1,0 +1,123 @@
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   
+}
+header {
+    background-color: #0046BE;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;   
+}   
+
+.menuIcon{
+    /*background-color: orange;*/
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center; /*left to right centering*/
+    line-height: 50px; /*vertically centers icon*/
+}
+
+.searchBar{
+    background-color: white;
+    padding: 5px;
+    border: 0;
+    font-family: Arial;
+    height: 50px;
+}
+
+main {
+    background-color: white;
+    color: black;  
+}
+
+.showcase {
+    background-color: aqua;
+    margin-bottom: 40px;
+}
+
+.showcase-img {
+    width: 100%;
+    height: auto;
+}
+
+.showcase-content{
+    padding:20px;
+}
+
+.showcase button{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0046BE;
+    padding: 10px;
+    border: 0px;
+}
+
+.showcase h1{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.content-padding {
+    padding: 20px;
+}
+
+.offer {
+    display: flex;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.offer-img{
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+.offer-img img {
+    width: 100%;
+    height: auto;
+}
+
+.offer-content{
+    width: 50%;  
+}
+
+ .offer-content h3{
+     font-weight: bold;
+     font-family: Arial;
+     font-size: 24px;
+ }
+
+ .offer-content h4{
+    font-family: Arial;
+    font-size: 18px;
+    color: #BB0628;
+ } 
+
+ .offer-content p{
+     font-family: Arial;
+     font-size: 16px;
+ }
+
+footer{
+    background-color: #c4c4c4;
+    padding: 20px;
+    background-color: #A4A4A4;
+}

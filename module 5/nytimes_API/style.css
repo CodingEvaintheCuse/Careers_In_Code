@@ -1,0 +1,9 @@
+body {
+    background-color: whitesmoke;
+}
+
+img {
+    width: 50px;
+    length: 100px;
+    align-items: left;
+}

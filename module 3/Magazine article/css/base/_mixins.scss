@@ -1,0 +1,21 @@
+@mixin breakpoint($class) {
+    @if $class == xs {
+    @media (max-width: 767px) { @content; }
+    }//closes bp xs
+    
+    @else if $class == sm {
+    @media (min-width: 768px) { @content; }
+    }//closes bp sm
+    
+    @else if $class == md {
+    @media (min-width: 992px) { @content; }
+    }//closes bp md
+    
+    @else if $class == lg {
+    @media (min-width: 1200px) { @content; }
+    }//closes bp lg
+    
+    @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }//closes @warn
+    }//closes Beast
